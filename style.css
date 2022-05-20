@@ -32,8 +32,11 @@ ul {
 }
 .main {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    background-color: #1f2937;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .top-par {
@@ -42,22 +45,16 @@ ul {
     align-items: left;
     flex-direction: column;
     text-align: left;
-    /*this shit is so fucked*/
-    padding: 144.5px 100px 204px 260px;
     flex-wrap: wrap;
-    /*this fixes earlier problem with padding space issues*/
-    max-width: 500px;
+    padding-right: 40px;
     min-width: 400px;
+    max-width: 500px;
+    margin-left: -180px;
 }
 .angel {
-    margin-left: 0px;
-    padding-left: 180px;
-    padding-top: 88px;
-    padding-right: 240px;
-    padding-bottom: 88px;
     background-color: #1f2937;
     min-height: 579.16;
-    
+    margin-right: -180px;
 }
 h1 {
     font-size: 48px;
