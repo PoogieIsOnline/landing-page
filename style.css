@@ -2,6 +2,7 @@
 body {
     margin: 0;
     text-align: center;
+    min-height: 100vh;
    
 }
 .header {
@@ -29,11 +30,10 @@ ul {
     overflow: hidden;
     gap: 14px;
 }
-/*.top-par {
+.top-par {
     display: flex;
     flex: 1;
     background-color: #1f2937;
-    justify-content: column;
     align-items: center;
 
 }
@@ -46,7 +46,15 @@ h1 {
 .para {
     font-size: 18px;
     color: #e5e7eb;
-}*/
+}
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 0 14px 0;
+    border-color: #f9faf8;
+    border-radius: 6px;
+}
 .title {
     font-size: 36px;
     font-weight: 800;
@@ -63,8 +71,27 @@ h1 {
     max-width: 150px;
     text-align: center;
 }
-
-
+.last-section {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 60px 140px 0px;
+    margin-top: 40px;
+    margin-bottom: -40px;
+}
+.last-title {
+    font-size: 18px;
+    color: #1f2937;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #e5e7eb;
+    padding-right: 100px;
+    padding-bottom: 60px;
+}
 
 
 
@@ -75,9 +102,9 @@ h1 {
     background-color: #3882f6;
     padding-left: 140px;
     padding-right: 140px;
-    padding-top: 45px;
-    padding-bottom: 45px;
+    padding-top: 35px;
     margin: 45px 140px 45px;
+    border-radius: 6px 6px 0 0;
 }
 .titlefoot {
     color: #f9faf8;
@@ -85,5 +112,15 @@ h1 {
     font-weight: 700;
 }
 .parafoot {
+    display:flex;
     color: #e5e7eb;
+    margin: 45px 140px 45px;
+    background-color: #3882f6;
+    padding-left: 140px;
+    margin-top: -60px;
+    padding-bottom: 25px;
+    border-radius: 0 0 6px 6px;
+}
+.bot-button {
+    margin-top: 20px;
 }
