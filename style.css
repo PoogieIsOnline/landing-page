@@ -5,7 +5,6 @@ body {
     min-height: 100vh;
     max-height: 579.16;
     flex: 1;
-   
 }
 .header {
     display: flex;
@@ -54,9 +53,10 @@ ul {
     margin-left: 0px;
     padding-left: 180px;
     padding-top: 88px;
-    padding-right: 260px;
+    padding-right: 240px;
     padding-bottom: 88px;
     background-color: #1f2937;
+    min-height: 579.16;
     
 }
 h1 {
