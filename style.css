@@ -46,7 +46,9 @@ ul {
     /*this shit is so fucked*/
     padding: 144.5px 100px 204px 260px;
     flex-wrap: wrap;
+    /*this fixes earlier problem with padding space issues*/
     max-width: 500px;
+    min-width: 400px;
 }
 .angel {
     margin-left: 0px;
