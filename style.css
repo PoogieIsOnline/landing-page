@@ -37,6 +37,7 @@ ul {
     background-color: #1f2937;
     padding-top: 60px;
     padding-bottom: 60px;
+    gap: 60px;
 }
 
 .top-par {
@@ -48,7 +49,7 @@ ul {
     flex-wrap: wrap;
     padding-right: 40px;
     min-width: 400px;
-    max-width: 500px;
+    max-width: 400px;
     margin-left: -180px;
 }
 .angel {
@@ -66,17 +67,16 @@ h1 {
     font-size: 18px;
     color: #e5e7eb;
 }
-.top-button {
-    margin-top: -14px;
-    border-color: #3882f6;
-}
-button {
+.but1 {
+    display: flex;
     background-color: #3882f6;
     color: #f9faf8;
     font-size: 18px;
-    padding: 0 14px 0;
-    border-color: #f9faf8;
+    padding: 2px 16px 4.5px;
+    border-color:#3882f6;
     border-radius: 6px;
+    max-width: 100px;
+    justify-content: center;
 }
 .title {
     font-size: 36px;
@@ -91,31 +91,35 @@ button {
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 60px;
 }
 .info {
     max-width: 150px;
     text-align: center;
 }
+.background { 
+    background-color:#e5e7eb ;
+}
 .last-section {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    background-color: #e5e7eb;
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
-    padding: 60px 140px 0px;
+    padding: 20px 140px 0px;
     margin-top: 40px;
     margin-bottom: -40px;
+    max-width: 900px;
 }
 .last-title {
     font-size: 18px;
     color: #1f2937;
     display: flex;
     justify-content: flex-end;
-    background-color: #e5e7eb;
     padding-right: 100px;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
+    margin-right: 160px;
 }
 .bottom {
     display: flex;
@@ -143,8 +147,17 @@ button {
     padding-bottom: 25px;
     border-radius: 0 0 6px 6px;
 }
-.bot-button {
+.but2 {
     margin-top: 20px;
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 4px 30px;
+    border-color:#f9faf8;
+    border-radius: 6px;
+    max-width: 140px;
+    justify-content: center;
 }
 .footer{
     display: flex;
