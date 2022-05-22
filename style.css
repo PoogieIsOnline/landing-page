@@ -14,8 +14,8 @@ body {
     height: 48px;
     background-color:white;
     font-size: 24px;
-    padding: 12px 120px;
-    margin-right: -100px;
+    padding: 12px 0px 12px 120px;
+    margin-right: 14px;
     margin-bottom: -1.3px;
     margin-left: -100px;
 }
