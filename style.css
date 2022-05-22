@@ -10,16 +10,18 @@ body {
     display: flex;
     justify-content:  space-between;
     align-items: center;
+    font-family:'Bebas Neue';
     height: 48px;
-    background-color: #1f2937;
+    background-color:white;
     font-size: 24px;
-    color: #f9faf8;
-    padding: 0px 120px;
+    padding: 12px 120px;
+    margin-right: -100px;
     margin-bottom: -1.3px;
+    margin-left: -100px;
 }
 li a{
     text-decoration: none;
-    color: #e5e7eb;
+    color: black;
     font-size: 18px;
     
 }
@@ -27,14 +29,24 @@ ul {
     display: flex;
     list-style-type: none;
     margin: 0;
+    margin-top: -40px;
     overflow: hidden;
     gap: 14px;
 }
+.but1:hover {
+    background-color: black;
+    color: white;;
+}
+.but2:hover {
+    background-color: white;
+    color: black;
+}
+
 .main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1f2937;
+    background-color:white;
     padding-top: 60px;
     padding-bottom: 60px;
     gap: 60px;
@@ -42,7 +54,7 @@ ul {
 
 .top-par {
     display: flex;
-    background-color: #1f2937;
+    background-color: white;
     align-items: left;
     flex-direction: column;
     text-align: left;
@@ -52,36 +64,38 @@ ul {
     max-width: 400px;
     margin-left: -180px;
 }
-.angel {
-    background-color: #1f2937;
+.angel { 
     min-height: 579.16;
     margin-right: -180px;
 }
 h1 {
-    font-size: 48px;
+    font-family: 'Bebas Neue';
+    font-size: 80px;
     font-weight: 800;
-    color: #f9faf8;
+    color: black;
     margin-bottom: -20px;
 }
 .para {
+    font-family: 'Bebas Neue';
     font-size: 18px;
-    color: #e5e7eb;
+    color: black;
 }
 .but1 {
     display: flex;
-    background-color: #3882f6;
-    color: #f9faf8;
+    background-color: white;
+    color: black;
     font-size: 18px;
     padding: 2px 16px 4.5px;
-    border-color:#3882f6;
+    border-color:black;
     border-radius: 6px;
-    max-width: 100px;
+    max-width: 160px;
     justify-content: center;
 }
 .title {
-    font-size: 36px;
-    font-weight: 800;
-    color: #1f2937;
+    font-family: 'Bebas Neue';
+    font-size: 42px;
+    font-weight: 200;
+    color: black;
     padding: 14px;
     margin-top: 24px;
     margin-bottom: 14px;
@@ -94,54 +108,57 @@ h1 {
     margin-bottom: 60px;
 }
 .info {
-    max-width: 150px;
+    font-family: 'Bebas Neue';
+    max-width: 300px;
     text-align: center;
 }
 .background { 
-    background-color:#e5e7eb ;
+    background-color: white;
 }
 .last-section {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-size: 36px;
-    font-style: italic;
-    color: #1f2937;
+    font-family: 'Bebas Neue';
+    font-size: 60px;
+    color:#342e8c;
     padding: 20px 140px 0px;
     margin-top: 40px;
     margin-bottom: -40px;
-    max-width: 900px;
+    max-width: 1200px;
 }
 .last-title {
     font-size: 18px;
-    color: #1f2937;
+    color: #342e8c;
     display: flex;
     justify-content: flex-end;
     padding-right: 100px;
     padding-bottom: 50px;
     margin-right: 160px;
+    margin-top: -40px;
 }
 .bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #3882f6;
+    background-color: black;
     padding-left: 140px;
     padding-right: 140px;
     padding-top: 35px;
-    margin: 45px 140px 45px;
+    margin: 45px 140px 30px;
     border-radius: 6px 6px 0 0;
 }
 .titlefoot {
-    color: #f9faf8;
-    font-size: 24px;
+    font-family: 'Bebas Neue';
+    color: white;
+    font-size: 42px;
     font-weight: 700;
 }
 .parafoot {
     display:flex;
-    color: #e5e7eb;
-    margin: 45px 140px 45px;
-    background-color: #3882f6;
+    color: white;
+    margin: 0px 140px 45px;
+    background-color: black;
     padding-left: 140px;
     margin-top: -60px;
     padding-bottom: 25px;
@@ -150,19 +167,19 @@ h1 {
 .but2 {
     margin-top: 20px;
     display: flex;
-    background-color: #3882f6;
-    color: #f9faf8;
+    background-color: black;
+    color: white;
     font-size: 18px;
     padding: 4px 30px;
-    border-color:#f9faf8;
+    border-color: white;
     border-radius: 6px;
-    max-width: 140px;
+    max-width: 180px;
     justify-content: center;
 }
 .footer{
     display: flex;
     justify-content: center;
-    background-color: #1f2937;
+    background-color: black;
     text-align: center;
     color: #e5e7eb;
     font-size: 18px;
