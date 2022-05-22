@@ -12,17 +12,16 @@ body {
     align-items: center;
     font-family:'Bebas Neue';
     height: 48px;
-    background-color:white;
+    background-color:#e5e7eb;
     font-size: 24px;
-    padding: 12px 0px 12px 120px;
-    margin-right: 14px;
+    padding: 10px 30px 20px 120px;
     margin-bottom: -1.3px;
     margin-left: -100px;
 }
 li a{
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 20px;
     
 }
 ul {
@@ -96,9 +95,10 @@ h1 {
     font-size: 42px;
     font-weight: 200;
     color: black;
+    background-color: #e5e7eb;
     padding: 14px;
     margin-top: 24px;
-    margin-bottom: 14px;
+    padding-bottom: 14px;
 
 }
 .container {
@@ -106,6 +106,8 @@ h1 {
     justify-content: center;
     gap: 50px;
     margin-bottom: 60px;
+    background-color: #e5e7eb;
+    padding-bottom: 14px;
 }
 .info {
     font-family: 'Bebas Neue';
@@ -113,7 +115,7 @@ h1 {
     text-align: center;
 }
 .background { 
-    background-color: white;
+    background-color:black;
 }
 .last-section {
     display: inline-flex;
@@ -121,15 +123,15 @@ h1 {
     align-items: center;
     font-family: 'Bebas Neue';
     font-size: 60px;
-    color:#342e8c;
+    color:white;
     padding: 20px 140px 0px;
     margin-top: 40px;
     margin-bottom: 0px;
-    max-width: 1260px;
+    max-width: 940px;
 }
 .last-title {
     font-size: 18px;
-    color: #342e8c;
+    color: white;
     display: flex;
     justify-content: flex-end;
     padding-right: 100px;
@@ -179,9 +181,9 @@ h1 {
 .footer{
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color:#e5e7eb;
     text-align: center;
-    color: #e5e7eb;
+    color: black;
     font-size: 18px;
     padding: 20px;
 }
